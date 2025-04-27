@@ -1,0 +1,12 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(29, 29, 29);
+    color: rgb(224, 224, 224);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    padding: 25px;
+}
