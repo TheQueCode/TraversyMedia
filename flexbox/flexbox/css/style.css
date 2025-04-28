@@ -1,0 +1,50 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(29, 29, 29);
+    color: rgb(224, 224, 224);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    padding: 25px;
+}
+
+h1 {
+    padding-bottom: 15px;
+}
+
+.flex-container {
+
+    display: flex;
+
+    gap: 10px;
+    /* Always on the main axis */
+    /*justify-content: space-evenly;
+    /* Always on the cross axis */
+    /*align-items: center;*/
+}
+
+.item {
+    flex: 1;
+    height: 100px;
+    background-color: #254de4;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+.item:nth-of-type(1) {
+    align-self: start;
+}
+.item:nth-of-type(2) {
+    align-self: center;
+}
+.item:nth-of-type(3) {
+    align-self: end;
+}
+*/
