@@ -62,7 +62,7 @@ console.log(output, typeof output); // 9007199254740991n bigint
 */
 // Reference:
 // Objects
-
+/*
 const numbers = [1,2,3,4];
 
 const person = { // {name: 'Que'} object
@@ -76,3 +76,4 @@ function sayHello() { // sayHello() { console.log("Hello");} functiton
 const output = sayHello;
 
 console.log(output, typeof output); // [1, 2, 3, 4] object
+*/
