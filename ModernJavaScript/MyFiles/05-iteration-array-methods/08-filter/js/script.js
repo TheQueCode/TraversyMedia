@@ -42,5 +42,22 @@ const companies = [
   {name: 'Company Seven', category: 'Auto', start: 1986, end: 1996},
   {name: 'Company Eight', category: 'Technology', start: 2011, end: 2016},
   {name: 'Company Nine', category: 'Retail', start: 1981, end: 1989},
-]
+];
 
+// Get only retail companies
+
+const retailCompanies = companies.filter(company => company.category === 'Retail');
+
+console.log(retailCompanies);
+
+// Get companies that started in or after 1980 and ended in or before 2005
+
+const oldCompanies = companies.filter(company => company.start >= 1980 && company.end <= 2005);
+
+console.log(oldCompanies);
+
+// Get companies that lasted 10 years or more
+
+const decadeCompanies = companies.filter(company => company.end - company.start >= 10);
+
+console.log(decadeCompanies);
