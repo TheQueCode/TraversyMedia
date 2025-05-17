@@ -1,10 +1,110 @@
-// document.getEleementById()
+// Revisiting Section 6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
+// document.getEleementById()
+
 console.log(document.getElementById('app-title'));
 console.log(document.getElementById('app-title').id);
 console.log(document.getElementById('app-title').className);
 console.log(document.getElementById('app-title').getAttribute('id'));
-*/
+
 // Set attributes
 
 document.getElementById('app-title').title = 'Shopping List';
@@ -15,12 +115,12 @@ const title = document.getElementById('app-title');
 // console.log(title);
 
 // Get/change element content
-/*
+
 console.log(title.textContent);
 title.textContent = 'Hello World';
 title.innerText = 'Hello Again';
 title.innerHTML = '<strong>Shopping List</strong>';
-*/
+
 // Change style
 title.style.color = 'red';
 title.style.backgroundColor = 'black';
@@ -47,25 +147,4 @@ console.log(list);
 
 const firstItem = list.querySelector('li');
 firstItem.style.color = 'blue';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
