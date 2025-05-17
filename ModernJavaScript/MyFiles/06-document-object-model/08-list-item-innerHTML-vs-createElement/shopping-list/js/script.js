@@ -1,3 +1,46 @@
+// Revisiting Section 6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 // Quick & Dirty
 
 function createListItem (item)
@@ -33,8 +76,7 @@ function createNewItem (item)
 
 }
 
-
-
-
 createListItem('Eggs');
 createNewItem('Cheese');
+
+*/
