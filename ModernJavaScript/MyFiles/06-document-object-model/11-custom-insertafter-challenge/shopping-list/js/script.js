@@ -31,37 +31,6 @@ const notFirstItem = document.querySelector('li:nth-child(4)');
 insertAfter(boo, notFirstItem);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 function insertAfter (newEl, existingEl)
 {
