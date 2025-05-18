@@ -1,4 +1,46 @@
-function createNewItem(item) {
+// Revisiting Section 6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+function createNewItem (item)
+{
   const li = document.createElement('li');
   li.appendChild(document.createTextNode(item));
 
@@ -31,6 +73,6 @@ function createIcon (classes)
   return icon;
 }
 
-
 createNewItem('Cheese');
 createNewItem('Sauce');
+*/
