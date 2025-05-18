@@ -1,3 +1,43 @@
+// Revisiting Section 6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 function insertAfter (newEl, existingEl)
 {
   existingEl.parentElement.insertBefore(newEl, existingEl.nextSibling);
@@ -12,3 +52,4 @@ const firstItem = document.querySelector('li:first-child');
 
 // The Custom Function
 insertAfter(li, firstItem);
+*/
