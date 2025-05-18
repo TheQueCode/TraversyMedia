@@ -1,3 +1,64 @@
+// Revisiting Section 6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 // insertAdjacentElement Example
 
 function insertElement ()
@@ -46,7 +107,7 @@ insertText();
 insertHTML();
 insertBeforeItem();
 
-/*
+
 <!-- beforebegin -->
 <p>
   <!-- afterbegin -->
