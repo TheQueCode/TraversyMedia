@@ -11,7 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Shopping List</title>
   </head>
   <body>
@@ -31,7 +31,7 @@
           />
         </div>
         <div class="form-control">
-          <button type="submit" class="btn">
+          <button type="submit" class="btn" title="Add Item">
             <i class="fa-solid fa-plus"></i> Add Item
           </button>
         </div>
@@ -49,33 +49,33 @@
       <ul id="item-list" class="items">
         <li>
           Apples
-          <button class="remove-item btn-link text-red">
+          <button class="remove-item btn-link text-red" title="Remove" type="button">
             <i class="fa-solid fa-xmark"></i>
           </button>
         </li>
         <li>
           Orange Juice
-          <button class="remove-item btn-link text-red">
+          <button class="remove-item btn-link text-red" title="Remove" type="button">
             <i class="fa-solid fa-xmark"></i>
           </button>
         </li>
         <li>
           Oreos
-          <button class="remove-item btn-link text-red">
+          <button class="remove-item btn-link text-red" title="Remove" type="button">
             <i class="fa-solid fa-xmark"></i>
           </button>
         </li>
         <li>
           Milk
-          <button class="remove-item btn-link text-red">
+          <button class="remove-item btn-link text-red" title="Remove" type="button">
             <i class="fa-solid fa-xmark"></i>
           </button>
         </li>
       </ul>
 
-      <button id="clear" class="btn-clear">Clear All</button>
+      <button id="clear" class="btn-clear" title="Clear All" type="button">Clear All</button>
     </div>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
